@@ -1,0 +1,80 @@
+@media (max-width:480px) {
+    #nav .sec{
+        display: none;
+    }    
+    #nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 10vh;
+        background-color:#261915 ;
+        position: sticky;
+        padding: 0 2vw;
+    }  
+    #nav-logo{
+        display: block; 
+    }  
+    #nav-logo a{
+       text-decoration: none;
+    }  
+    #nav-logo  a h1{
+       font-size: 8vw;
+       text-transform: uppercase;
+       color: #D2C9A0;
+     } 
+    #nav i{
+        display: block;
+        color:#D2C9A0;
+        cursor: pointer;
+        font-size: 8vw;
+    } 
+    #page1{
+        width: 100%;
+        flex-direction: column;
+    }
+    #page1-top{
+        padding: 0 2vw;
+        position: relative;
+       
+    }
+    #page1-top p{
+        font-size: .5rem;
+        letter-spacing: .1rem;
+    }
+    #page1-top h1{
+      margin-top: 10vw;
+      bottom: 30%;
+      position: absolute;
+    }
+    .page-bottom{
+        height: 200vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    .page-bottom-left {
+        height: 100%;
+        width: 100%;
+        background-color: #4D3026;
+    }
+    .page-bottom-right {
+        height: 100%;
+        width: 100%;
+    }
+    .page-bottom-right .image-div {
+        width: 50vw;
+        height: 40vh;
+        top: 12%;
+    }
+    .page-bottom-right .main-heading {
+        bottom: 25%;
+    }
+    .page-bottom-right .main-heading h1 {
+      font-size: 8vw;
+      line-height: 7vw;
+    }
+    #page2 .page-bottom-right h2 {
+        bottom: 20%;
+        text-align: center;
+    }
+}
